@@ -1,0 +1,23 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "1. What is TypeScript?\r A JavaScript Superset building up on JavaScript.\r Browser CAN'T execute it, we need to compiled this code.",
+  "main": "using-ts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Synkevych/typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Synkevych/typescript/issues"
+  },
+  "homepage": "https://github.com/Synkevych/typescript#readme",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
