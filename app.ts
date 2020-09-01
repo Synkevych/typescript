@@ -1,15 +1,15 @@
-function combine(n1: number | string, n2: number | string) {
-  let result;
-  if (typeof n1 === 'number' && typeof n2 === 'number'){
-    result = n1 + n2;
-  } else {
-    result = n1.toString() + ' ' + n2.toString();
-  } 
-    return result;
+let userInput: unknown; 
+let userName: string;
+
+userInput = 5;
+userInput = 'Roman';
+
+if (typeof userInput === 'string') {
+  userName = userInput;
 }
 
-const combineAges = combine(30, 36);
-console.log(combineAges);
+function genetateError(message: string, code: number): never {
+  throw { message: message, errorCode: code};
+}
 
-const combineNames = combine("Bohdan", "Max");
-console.log(combineNames);
+genetateError('An error occured!', 500);
